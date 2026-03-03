@@ -56,6 +56,11 @@ const portfolioData = {
       title: "Banner Promosi UMKM",
       image: "assets/gambar11.jpg",
       description: "Desain spanduk pada Dapoer Mama Ayang di padang."
+    },
+    {
+      title: "Mix Drill",
+      image: "assets/gambar13.jpg",
+      description: "Poster dan logo serta mockup."
     }
   ]
 };
@@ -89,3 +94,4 @@ function renderSection(title, items){
 
 renderSection("Website Projects", portfolioData.website);
 renderSection("Graphic Design Projects", portfolioData.design);
+
